@@ -520,6 +520,6 @@ AFTER UPDATE OF salary ON employee
 FOR EACH ROW
 EXECUTE FUNCTION update_tax_surcharge_net_salary();
 
-update surcharge_tax set salary = 55000 where empid = 1002
+update surcharge_tax set salary = 55000 where empid = 1002;
 
 
